@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { color-scheme: dark; }
+html, body, #__next { height: 100%; background:#050505; }
+body { @apply text-spectral antialiased; }
+.aura { box-shadow: 0 0 80px rgba(79,195,247,0.18); }
